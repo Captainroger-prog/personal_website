@@ -20,7 +20,7 @@ const Resume = () => {
     doc.setFontSize(12);
     doc.setFont("helvetica", "normal");
     doc.text(
-      "Motivated Computer Science student passionate about web and mobile development. Skilled in PHP, Laravel, React JS, and Flutter. Eager to contribute to real-world software projects.",
+      "Motivated Computer Science student passionate about web and mobile development.Practicing PHP, Laravel, React JS, and Flutter. Eager to contribute to real-world software projects.",
       20,
       57,
       { maxWidth: 170 }
@@ -62,7 +62,7 @@ const Resume = () => {
 
         <h4>Objective</h4>
         <p>
-          Motivated Computer Science student passionate about web and mobile development. Skilled in PHP, Laravel, React JS, and Flutter. Eager to contribute to real-world software projects.
+          Motivated Computer Science student passionate about web and mobile development. Practicing  PHP, Laravel, React JS, and Flutter. Eager to contribute to real-world software projects.
         </p>
 
         <h4>Education</h4>
