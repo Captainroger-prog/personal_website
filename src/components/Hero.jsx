@@ -38,7 +38,7 @@ const Hero = () => {
           Hi, I'm <span className="highlight">Rogelio Roger Dela Cruz II</span> 👋
         </h1>
         <p className="subtitle">
-          I am a Computer Science student with a passion for technology. I want to build web
+          I am a Computer Science student with a passion for technology. I want to build a web
           and mobile systems that solve real-world problems and continuously
           improve my skills in modern development.
         </p>
