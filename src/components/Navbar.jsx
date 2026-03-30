@@ -14,12 +14,10 @@ const Navbar = () => {
       </div>
 
       {/* NAV LINKS */}
-      <ul className={`nav-links ${open ? "active" : ""}`}>
-        <li><a href="App.jsx">Home</a></li>
-
-        <li><a href="#projects">Projects</a></li>
-
-      </ul>
+  <ul className={`nav-links ${open ? "active" : ""}`}>
+  <li><a href="/">Home</a></li>
+  <li><a href="#projects">Projects</a></li>
+</ul>
 
       {/* HAMBURGER */}
       <div className="hamburger" onClick={() => setOpen(!open)}>
