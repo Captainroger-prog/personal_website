@@ -1,0 +1,5 @@
+;/*FB_PKG_DELIM*/
+
+__d("ApproveFromAnotherDeviceRootQuery_facebookRelayOperation",[],(function(t,n,r,o,a,i){a.exports="25383236244605976"}),null);
+__d("CometNotificationsRootQuery$Parameters",["CometNotificationsRootQuery_facebookRelayOperation"],(function(t,n,r,o,a,i){"use strict";var e={kind:"PreloadableConcreteRequest",params:{id:n("CometNotificationsRootQuery_facebookRelayOperation"),metadata:{},name:"CometNotificationsRootQuery",operationKind:"query",text:null}};a.exports=e}),null);
+__d("CometNotificationsRoot.entrypoint",["CometNotificationsRootQuery$Parameters","JSResourceForInteraction","WebPixelRatio"],(function(t,n,r,o,a,i,l){"use strict";var e=15,s={getPreloadProps:function(r){var t,a,i={count:e,environment:"MAIN_SURFACE",filter_tokens:(t=r==null||(a=r.passthroughProps)==null?void 0:a.filterTokens)!=null?t:[],scale:o("WebPixelRatio").get()};return{queries:{notificationsRootQueryReference:{parameters:n("CometNotificationsRootQuery$Parameters"),variables:i}}}},root:r("JSResourceForInteraction")("CometNotificationsRoot.react").__setRef("CometNotificationsRoot.entrypoint")};l.default=s}),98);

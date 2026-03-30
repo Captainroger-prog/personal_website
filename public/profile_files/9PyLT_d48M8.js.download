@@ -1,0 +1,4 @@
+;/*FB_PKG_DELIM*/
+
+__d("MWV2NegativeFeedbackMenuItem.react",["MWXMenuItem.react","react","react-compiler-runtime","useGenAiNegativeFeedback"],(function(t,n,r,o,a,i,l){"use strict";var e,s=e||(e=o("react"));function u(e){var t=o("react-compiler-runtime").c(3),n=e.message,a=r("useGenAiNegativeFeedback")(n),i=a[0],l=a[1],u;return t[0]!==i||t[1]!==l?(u=s.jsx(r("MWXMenuItem.react"),{"aria-label":l,onClick:i,primaryText:l,testid:void 0}),t[0]=i,t[1]=l,t[2]=u):u=t[2],u}l.default=u}),98);
+__d("MWV2PositiveFeedbackMenuItem.react",["MWXMenuItem.react","react","react-compiler-runtime","useGenAiPositiveFeedback"],(function(t,n,r,o,a,i,l){"use strict";var e,s=e||(e=o("react"));function u(e){var t=o("react-compiler-runtime").c(3),n=e.message,a=r("useGenAiPositiveFeedback")(n),i=a[0],l=a[1],u;return t[0]!==i||t[1]!==l?(u=s.jsx(r("MWXMenuItem.react"),{"aria-label":l,onClick:i,primaryText:l,testid:void 0}),t[0]=i,t[1]=l,t[2]=u):u=t[2],u}l.default=u}),98);

@@ -1,0 +1,73 @@
+.resume-section {
+  padding: 60px 10%;
+  background: #f0f4f8;
+  border-radius: 20px;
+  margin: 50px 0;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+  font-family: 'Inter', sans-serif;
+}
+
+.resume-section h2 {
+  text-align: center;
+  font-size: 2.8rem;
+  margin-bottom: 40px;
+  color: #1d3557;
+  font-weight: 700;
+}
+
+.resume-content h3 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  color: #457b9d;
+}
+
+.resume-content h4 {
+  font-size: 1.5rem;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  color: #1d3557;
+  font-weight: 600;
+}
+
+.resume-content p, .resume-content li {
+  font-size: 1rem;
+  margin-bottom: 8px;
+  line-height: 1.6;
+  color: #333;
+}
+
+.resume-content ul {
+  list-style: disc inside;
+  padding-left: 0;
+}
+
+.btn-download {
+  margin-top: 25px;
+  padding: 12px 30px;
+  background-color: #e63946;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.btn-download:hover {
+  background-color: #c1121f;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+a {
+  color: #1d3557;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #e63946;
+}

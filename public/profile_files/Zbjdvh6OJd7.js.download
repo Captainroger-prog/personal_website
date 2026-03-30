@@ -1,0 +1,3 @@
+;/*FB_PKG_DELIM*/
+
+__d("LSUpdateOngoingCallServerInfoData",[],(function(t,n,r,o,a,i){function e(){var e=arguments,t=e[e.length-1],n=[],r=[];return t.sequence([function(n){return t.db.table(23).put({threadKey:e[0],ongoingCallServerInfoData:e[1],willExpandToNewThread:e[2],ongoingCallTimestampMs:e[3]})},function(e){return t.resolve(r)}])}e.__sproc_name__="LSMailboxUpdateOngoingCallServerInfoDataStoredProcedure",e.__tables__=["rtc_ongoing_calls_on_threads_v2"],a.exports=e}),null);

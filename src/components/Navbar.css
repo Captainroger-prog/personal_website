@@ -1,0 +1,139 @@
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 10%;
+  position: sticky;
+  top: 0;
+
+  background: #e63946; /* 🔴 RED */
+
+  z-index: 100;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+}
+
+/* LOGO CONTAINER */
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* LOGO IMAGE */
+.logo-img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #e63946;
+  transition: 0.3s;
+}
+
+.logo-img:hover {
+  transform: scale(1.1);
+}
+
+/* LOGO TEXT */
+.logo-text {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #ffffff;
+  transition: 0.3s;
+}
+
+.logo-container:hover .logo-text {
+  color: #e63946;
+}
+
+/* NAV LINKS */
+.navbar ul {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+}
+
+/* LINKS */
+.navbar a {
+  text-decoration: none;
+  color: #ddd;
+  font-weight: 500;
+  position: relative;
+  transition: all 0.3s;
+}
+
+/* UNDERLINE ANIMATION */
+.navbar a::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background: #e63946;
+  left: 0;
+  bottom: -5px;
+  transition: width 0.3s;
+}
+
+.navbar a:hover::after {
+  width: 100%;
+}
+
+/* HOVER COLOR */
+.navbar a:hover {
+  color: #ffffff;
+}
+
+/* HAMBURGER */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.hamburger span {
+  width: 25px;
+  height: 3px;
+  background: #fff;
+  margin: 4px 0;
+  transition: 0.3s;
+}
+.nav-socials {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.nav-socials a {
+  color: #fff; /* or your navbar color */
+  font-size: 1.2rem;
+  transition: 0.3s;
+}
+
+.nav-socials a:hover {
+  color: #e63946; /* red hover */
+}
+
+/* MOBILE */
+@media screen and (max-width: 768px) {
+  .hamburger {
+    display: flex;
+  }
+
+  .navbar ul {
+    position: absolute;
+    top: 70px;
+    right: 0;
+    background: rgba(0, 0, 0, 0.9);
+    width: 200px;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    transform: translateX(100%);
+    transition: 0.3s;
+  }
+
+  .navbar ul.active {
+    transform: translateX(0);
+  }
+}
